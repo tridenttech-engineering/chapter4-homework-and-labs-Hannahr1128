@@ -22,14 +22,13 @@ store1 = store1 * increase;
 store2 = store2 * increase;
 total = store1 + store2;
 
-cout << fixed << setprecision(2) << endl;
+cout << fixed << setprecision(2);
 cout << store1 << " --->Store 1" << endl;
 cout << store2 << " --->Store 2" << endl;
 cout << "-----------------" << endl;
 cout << total << " --->Total" << endl;
   return 0;
 }	//end of main function
-
 //1.  Declare and initalize three int variables named store1Int, store2Int, and totalInt
 //2.  Change the first assignment statement to store1Int = static_cast<int>(store1 * increase * 100 + .5);
 //3.  Change the second assignment statement to store2Int = static_cast<int>(store2 * increase * 100 + .5);
