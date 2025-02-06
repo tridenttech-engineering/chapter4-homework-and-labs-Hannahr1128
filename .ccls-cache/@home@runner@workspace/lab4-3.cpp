@@ -20,6 +20,6 @@ int main()
   //calculate and display the commision
   commission = sales*COMM_RATE;
   cout << "Commission: $" << commission << endl;
-  system("pause");
-  return 0;
+  
+ return 0;
 } //end of main function
